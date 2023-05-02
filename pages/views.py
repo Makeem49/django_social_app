@@ -9,4 +9,5 @@ class HomePageView(TemplateView):
 
 
 class AboutPageView(TemplateView):
+    """Make use of TemplateView if you only want to render out html content"""
     template_name = "about.html"
